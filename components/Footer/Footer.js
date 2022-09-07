@@ -18,7 +18,11 @@ const Footer = () => {
 
       <div className={styles.meta}>
         <h3>Официальный интернет-ресурс</h3>
-        <div className={styles.cit}><Link href={'https://vk.com'}><h3>Сделано КП РТ "ЦИТ РТ" 2022</h3></Link></div>
+        <div className={styles.cit}>
+          <Link href={'https://vk.com'}>
+            <a><h3>Сделано КП РТ "ЦИТ РТ" 2022</h3></a>
+          </Link>
+          </div>
       </div>
 
       <div>
