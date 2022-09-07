@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <div className={styles.orgname}>
-        <Image src={'/favicon.ico'} width={70} height={70} />
+        <Image alt='some.png' src={'/favicon.ico'} width={70} height={70} />
         <h1>Министерство такое-то</h1>
       </div>
     

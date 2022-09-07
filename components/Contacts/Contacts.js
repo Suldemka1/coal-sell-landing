@@ -33,22 +33,22 @@ const Contacts = () => {
         <div className={styles.social}>
           <div className={styles.card}>
             <Link href={'https://vk.com'} >
-              <Image src={'/favicon.ico'} width={175} height={126} />
+              <Image alt='some.png' src={'/favicon.ico'} width={175} height={126} />
             </Link>
           </div>
           <div className={styles.card}>
             <Link href={'https://vk.com'} >
-              <Image src={'/favicon.ico'} width={175} height={126} />
+              <Image alt='some.png' src={'/favicon.ico'} width={175} height={126} />
             </Link>
           </div>
           <div className={styles.card}>
             <Link href={'https://vk.com'} >
-              <Image src={'/favicon.ico'} width={175} height={126} />
+              <Image alt='some.png' src={'/favicon.ico'} width={175} height={126} />
             </Link>
           </div>
           <div className={styles.card}>
             <Link href={'https://vk.com'} >
-              <Image src={'/favicon.ico'} width={175} height={126} />
+              <Image alt='some.png' src={'/favicon.ico'} width={175} height={126} />
             </Link>
           </div>
         </div>

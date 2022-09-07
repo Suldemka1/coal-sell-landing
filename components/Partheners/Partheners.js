@@ -8,7 +8,7 @@ const Partheners = () => {
     <>
       <div className={styles.card}>
         <div className={styles.logo}>
-          <Image src={'/favicon.ico'} layout='fill' className={styles.image} />
+          <Image alt='some.png' src={'/favicon.ico'} layout='fill' className={styles.image} />
         </div>
 
         <div className={styles.content}>
@@ -29,10 +29,10 @@ const Partheners = () => {
               <div className={styles.email}> <AiFillPhone /> someemail@mail.com</div>
             </div>
             <div className={styles.social}>
-              <Image src={'/favicon.ico'} width={30} height={30} />
-              <Image src={'/favicon.ico'} width={30} height={30} />
-              <Image src={'/favicon.ico'} width={30} height={30} />
-              <Image src={'/favicon.ico'} width={30} height={30} />
+              <Image alt='some.png' src={'/favicon.ico'} width={30} height={30} />
+              <Image alt='some.png' src={'/favicon.ico'} width={30} height={30} />
+              <Image alt='some.png' src={'/favicon.ico'} width={30} height={30} />
+              <Image alt='some.png' src={'/favicon.ico'} width={30} height={30} />
             </div>
           </div>
         </div>

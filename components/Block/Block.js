@@ -7,7 +7,7 @@ const Block = () => {
   return (
     <div className={styles.block}>
       <div className={styles.imageblock}>
-        <Image src={'/coal.png'} layout='fill' className={styles.image}/>
+        <Image alt='some.png' src={'/coal.png'} layout='fill' className={styles.image}/>
       </div>
 
 
