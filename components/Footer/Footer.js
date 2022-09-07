@@ -23,7 +23,7 @@ const Footer = () => {
         <h3>Официальный интернет-ресурс</h3>
         <div className={styles.cit}>
           <Link href={'https://vk.com'}>
-            <a style={{ gap: '10px' }}><Image src={'/logo.jpg'} width={20} height={20} />Сделано КП РТ ЦИТ РТ  2022</a>
+            <a style={{ gap: '10px' }}><Image alt='some.png' src={'/logo.jpg'} width={20} height={20} />Сделано КП РТ ЦИТ РТ  2022</a>
           </Link>
         </div>
       </div>
