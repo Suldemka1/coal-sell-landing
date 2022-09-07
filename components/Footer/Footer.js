@@ -20,7 +20,7 @@ const Footer = () => {
         <h3>Официальный интернет-ресурс</h3>
         <div className={styles.cit}>
           <Link href={'https://vk.com'}>
-            <a>Сделано КП РТ "ЦИТ РТ" 2022</a>
+            <a>Сделано КП РТ &quot ЦИТ РТ &quot 2022</a>
           </Link>
         </div>
       </div>
