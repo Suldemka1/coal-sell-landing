@@ -1,0 +1,76 @@
+.card {
+  display: flex;
+  flex-direction: row;
+
+  gap: 40px;
+
+  .logo {
+    width: 100%;
+    max-width: 300px;
+
+    span {
+      position: unset !important;
+    }
+
+    .image {
+      display: none;
+      background-color: #000000;
+      position: fixed;
+      object-fit: contain;
+      width: auto !important;
+
+      position: relative !important;
+      height: unset !important;
+    }
+  }
+
+  .content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .meta {
+      display: flex;
+      flex-direction: column;
+
+      justify-content: flex-start;
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .contacts {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+
+        .email {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+
+        .phone {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
+
+      .social {
+        min-width: 200px;
+        height: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.contacts {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .phone {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-top: 1px #eaeaea solid;
+
+    .destination {
+      max-width: 200px;
+    }
+
+    .number {
+      text-align: end;
+    }
+  }
+
+  .social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+    .card {
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.block {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5%;
+
+  .imageblock {
+    width: 100%;
+
+    span {
+      position: unset !important;
+    }
+
+    .image {
+      display: none;
+      background-color: #000000;
+      position: fixed;
+      object-fit: contain;
+      width: auto !important;
+
+      position: relative !important;
+      height: unset !important;
+    }
+  }
+
+  .content {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+
+    .title {
+      vertical-align: text-top;
+    }
+
+    .body {
+      line-height: 3em;
+    }
+  }
+}

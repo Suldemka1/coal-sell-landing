@@ -6,6 +6,35 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  min-height: 150px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+menu {
+  min-width: 500px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+menu li {
+  cursor: pointer;
+}
+
 a {
   color: inherit;
   text-decoration: none;
