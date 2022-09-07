@@ -11,28 +11,7 @@ html {
 }
 
 header {
-  min-height: 150px;
-
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-  justify-content: space-between;
-}
-
-menu {
-  min-width: 500px;
-  display: flex;
-  flex-direction: row;
-
-  justify-content: space-between;
-
-  text-decoration: none;
-  list-style: none;
-}
-
-menu li {
-  cursor: pointer;
+  
 }
 
 a {
