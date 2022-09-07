@@ -1,3 +1,9 @@
+@media (max-width: 992px) {
+  .contacts {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 .contacts {
 
   display: grid;

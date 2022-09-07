@@ -4,7 +4,7 @@ const Map = () => {
   return (
     <div>
       <h2>Карта складов по Республике Тыва</h2>
-      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6f8635ace44af550db6b37ffd07d65b068fd52ac38b7afa98a4277e7592c86a3&amp;source=constructor" width="100%" height="413" frameBorder="0"></iframe>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A18ca53cce8bf64668fbdb3705e55f3b436465c9f0b36093d9d0f0825433fa97f&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
     </div>
 
 

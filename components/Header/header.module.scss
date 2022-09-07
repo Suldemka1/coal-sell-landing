@@ -1,4 +1,45 @@
-.orgname {
+@media (max-width: 992px) {
+  .header {
+    flex-direction: column !important;
+  }
+}
+
+.header {
+  min-height: 150px;
+
   display: flex;
+  flex-direction: row;
+
   align-items: center;
+  justify-content: space-between;
+
+  .main_menu {
+    padding: 0;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .main_menu li {
+    &:hover {
+      text-decoration: underline;
+    }
+
+    cursor: pointer;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .orgname {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+  }
 }

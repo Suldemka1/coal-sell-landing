@@ -1,10 +1,18 @@
+@media (max-width: 992px) {
+  .footer {
+    flex-direction: column !important;
+  }
+}
+
 .footer {
   display: flex;
-  flex: 1;
+  flex-direction: row;
   border-top: 1px solid #eaeaea;
   justify-content: space-between;
+  align-items: center;
 
   height: 200px;
+  gap: 20px;
 
   .links {
     line-height: 2.5em;
@@ -14,15 +22,27 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
 
 
     .cit {
       &:hover {
         text-decoration: underline;
       }
+
       cursor: pointer;
       color: rgb(22, 22, 151);
+    }
+  }
+
+  .linkToTop {
+    width: 100px;
+    height: 100px;
+
+    .svgArrow {
+      width: 50px;
+      height: 50px;
     }
   }
 }
