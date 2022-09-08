@@ -1,3 +1,14 @@
+@media (max-width: 500px) {
+  .card {
+    .content {
+      .footer {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+      }
+    }
+  }
+}
+
 .card {
   display: flex;
   flex-direction: row;
@@ -25,7 +36,6 @@
   }
 
   .content {
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,12 +50,14 @@
     .footer {
       display: flex;
       flex-direction: row;
+      gap: 20px;
       justify-content: space-between;
       align-items: center;
 
       .contacts {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         gap: 20px;
 
         .email {
