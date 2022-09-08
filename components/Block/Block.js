@@ -1,14 +1,44 @@
 import Image from "next/image";
 import styles from './block.module.scss'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 const Block = () => {
-
+  const images = [
+    { url: "/coal.png" },
+    { url: "/coal.png" },
+    { url: "/coal.png" },
+  ];
 
   return (
     <div className={styles.block}>
-      <div className={styles.imageblock}>
-        <Image alt='some.png' src={'/coal.png'} layout='fill' className={styles.image}/>
-      </div>
+      {/* <div className={styles.imageblock}>
+        <Image alt='some.png' src={'/coal.png'} layout='fill' className={styles.image} />
+      </div> */}
+
+      <Carousel>
+        <div>
+          <Image src={"/coal.png"} alt="image1" width={900} height={500} />
+          <p className="legend">Продажа угля</p>
+        </div>
+        <div>
+          <Image src={"/coal.png"} alt="image2" width={900} height={500} />
+          <p className="legend">Продажа угля</p>
+        </div>
+        <div>
+          <Image src={"/coal.png"} alt="image3" width={900} height={500} />
+          <p className="legend">Продажа угля</p>
+        </div>
+        <div>
+          <Image src={"/coal.png"} alt="image4" width={900} height={500} />
+          <p className="legend">Продажа угля</p>
+        </div>
+        <div>
+          <Image src={"/coal.png"} alt="image5" width={900} height={500} />
+          <p className="legend">Продажа угля</p>
+        </div>
+      </Carousel>
+
 
 
       <div className={styles.content}>
