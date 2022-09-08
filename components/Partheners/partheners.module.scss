@@ -1,6 +1,20 @@
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .card {
+    .logo {
+      display: none !important;
+    }
+
+
     .content {
+      .meta {
+        .parthener_name {
+          .mini_logo {
+            display: block !important;
+          }
+        }
+      }
+
+
       .footer {
         flex-direction: column !important;
         align-items: flex-start !important;
@@ -45,6 +59,17 @@
       flex-direction: column;
 
       justify-content: flex-start;
+
+      .parthener_name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+        .mini_logo {
+          display: none;
+        }
+      }
     }
 
     .footer {

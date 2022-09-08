@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './partheners.module.scss'
-import {AiOutlineMail, AiFillPhone} from 'react-icons/ai'
+import { AiOutlineMail, AiFillPhone } from 'react-icons/ai'
 
 const Partheners = () => {
 
@@ -13,7 +13,14 @@ const Partheners = () => {
 
         <div className={styles.content}>
           <div className={styles.meta}>
-            <h4>Название компании</h4>
+            <div className={styles.parthener_name}>
+              <div className={styles.mini_logo}>
+                <Image alt='some.png' src={'/favicon.ico'} width={50} height={50} />
+              </div>
+
+              <h4>Название компании</h4>
+            </div>
+
 
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
